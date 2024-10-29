@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Change Button</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .changeHoja {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            height: 10vh;
+            width: 40vw;
+            background-color: rgb(24, 20, 44);
+            border-radius: 20px;
+            border: 2px solid rgba(0, 0, 1, 0.3);
+            box-shadow: 0.5px 2px 10px 0.5px;
+            font-size: 90%;
+        }
+
+        .changeKar {
+            padding: 12px 40px;
+            font-size: 1rem;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border-radius: 3px;
+            letter-spacing: 2px;
+            border: 1px solid rgba(0, 0, 1, 0.8);
+            box-shadow: 0.5px 1px 1px 0.5px;
+            cursor: pointer;
+        }
+
+        .bg-text {
+            color: rgb(32, 244, 252);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="changeHoja"><h2><span class="bg-text">background-color :</span> rba(255, 255, 255)</h2></div>
+        <button onclick="changeColor()" class="changeKar">CLICK ME</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
