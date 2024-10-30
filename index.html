@@ -34,17 +34,17 @@
             color: rgb(255, 255, 255);
             text-transform: uppercase;
             height: 10vh;
-            width: 40vw;
+            width: 50vw;
             background-color: rgb(24, 20, 44);
             border-radius: 20px;
             border: 2px solid rgba(0, 0, 1, 0.3);
             box-shadow: 0.5px 2px 10px 0.5px;
-            font-size: 90%;
+            font-size: 1.2vw;
         }
 
         .changeKar {
-            padding: 12px 40px;
-            font-size: 1rem;
+            padding: 15px 45px;
+            font-size: 1.2vw;
             font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
             border-radius: 3px;
@@ -56,6 +56,17 @@
 
         .bg-text {
             color: rgb(32, 244, 252);
+        }
+
+        @media screen and (max-width : 580px) {
+            .changeKar {
+                padding: 8px 25px;
+            }
+            .changeHoja {
+                padding: 1px;
+                font-size: 70%;
+                width: 70vw;
+            }
         }
     </style>
 </head>
